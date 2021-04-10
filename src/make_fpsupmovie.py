@@ -19,7 +19,7 @@ class videomaker():
         fps, digit, count = up_fps_path.up_fps(movie, rate)
 
         make_m = image_movie.make_mp4()
-        make_m.video_maker(count,rate,digit,fps)
+        make_m.video_maker(count-5,rate,digit,fps)
 
 
 if __name__ ==  "__main__":

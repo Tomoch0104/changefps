@@ -37,3 +37,8 @@
 
 ## フレームの補間について
 初めての制作物ということもあり，簡単に前後フレームの間の輝度値をとるように中間フレームを生成
+
+
+|前フレーム|補間フレーム|後フレーム|
+|---|---|---|
+|　<img src="https://user-images.githubusercontent.com/80777762/114273657-e9c79180-9a55-11eb-9ec5-b3b97b2c7e9d.jpg" width="250">　|　<img src="https://user-images.githubusercontent.com/80777762/114273745-4dea5580-9a56-11eb-9cb8-2ae11c164b38.jpg" width="250">　|　<img src="https://user-images.githubusercontent.com/80777762/114273715-327f4a80-9a56-11eb-9df1-2e4a9fc243c0.jpg" width="250">　|
