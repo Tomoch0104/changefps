@@ -28,7 +28,7 @@ class make_frame():
         return
     
 if __name__ == "__main__":
-    count = 
+    count = 2
     digit = 3
     rate = 2
 

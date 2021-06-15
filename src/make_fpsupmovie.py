@@ -23,6 +23,6 @@ class videomaker():
 
 
 if __name__ ==  "__main__":
-    rate = 4
+    rate = 1
 
     videomaker().upfps(rate)
