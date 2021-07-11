@@ -42,3 +42,33 @@
 |前フレーム|補間フレーム|後フレーム|
 |---|---|---|
 |　<img src="https://user-images.githubusercontent.com/80777762/114273657-e9c79180-9a55-11eb-9ec5-b3b97b2c7e9d.jpg" width="250">　|　<img src="https://user-images.githubusercontent.com/80777762/114273745-4dea5580-9a56-11eb-9cb8-2ae11c164b38.jpg" width="250">　|　<img src="https://user-images.githubusercontent.com/80777762/114273715-327f4a80-9a56-11eb-9df1-2e4a9fc243c0.jpg" width="250">　|
+
+# 処理
+./src/～.pyの処理の説明を以下に示します．
+
+## make_fpsupmovie.py
+実行するファイル
+- 使用ライブラリ
+    - Open-CV
+
+"rate"にfpsの倍率を代入（整数のみ対応可）
+```python
+if __name__ ==  "__main__":
+    rate = 1
+
+    videomaker().upfps(rate)
+```
+イニシャライザではパスを取得
+```python
+    def __init__(self):
+        in_v_path = init_movie_path.init_movie_path
+        self.in_movie_path = in_v_path._in_movie_path
+```
+
+## image_movie.py
+
+## init_movie_path.py
+
+## make_while_frame.py
+
+## up_fps.py
